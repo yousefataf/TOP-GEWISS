@@ -603,21 +603,21 @@ Portfolio & Product Section
   background-color: var(--light-gray);
   position: relative;
   overflow: hidden;
-  background-image: url("/ElectricPrecision/src/1.png");
+  background-image: url("../1.png");
   background-size: cover;
   background-position: center;
 }
 
 .product-image-2 {
-  background-image: url("/ElectricPrecision/src/3-\(2\).jpg");
+  background-image: url("../3-\(2\).jpg");
 }
 
 .product-image-3 {
-  background-image: url("/ElectricPrecision/src/4.png");
+  background-image: url("../4.png");
 }
 
 .product-image-4 {
-  background-image: url("/ElectricPrecision/src/5.png");
+  background-image: url("../5.png");
 }
 
 .product-badge {
@@ -1047,7 +1047,7 @@ Footer
   color: var(--white);
 }
 .lll {
-  background-image: url(/ElectricPrecision/src/expand.png);
+  background-image: url(../expand.png);
   background-repeat: repeat;
   background-size: cover;
 }
@@ -1180,7 +1180,7 @@ Responsive Styles
     gap: var(--space-md);
   }
   .lll {
-    background-image: url(/ElectricPrecision/src/expand-mo.png);
+    background-image: url(../expand-mo.png);
     background-repeat: repeat;
     background-size: cover;
     padding: 90px;
