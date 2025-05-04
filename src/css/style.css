@@ -366,7 +366,7 @@ Hero Section
 }
 
 .hero-content {
-  max-width: 650px;
+  max-width: 750px;
   position: relative;
   z-index: 1;
 }
@@ -451,7 +451,7 @@ Categories Section
   border-radius: 50%;
 }
 
-.svg-icon { 
+.svg-icon {
   color: #000000;
   width: 40px;
   height: 40px;
@@ -1226,7 +1226,7 @@ Responsive Styles
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   /* Product card responsive styles */
@@ -1368,8 +1368,6 @@ Responsive Styles
   left: 20PX;
 } */
 
-
-
 .about2 {
   padding: var(--space-xxl) 0;
   background-color: var(--white);
@@ -1412,4 +1410,9 @@ Responsive Styles
 .stat-text2 {
   font-weight: 500;
   color: var(--secondary-color);
+}
+
+.portfolio2-grid img {
+  position: relative;
+  left: 22px;
 }
