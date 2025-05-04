@@ -347,6 +347,7 @@ Hero Section
   padding: 12rem 0 8rem;
   position: relative;
   overflow: hidden;
+  height: 100vh;
 }
 
 .hero::before {
@@ -371,7 +372,7 @@ Hero Section
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: var(--space-lg);
   color: var(--white);
@@ -450,7 +451,8 @@ Categories Section
   border-radius: 50%;
 }
 
-.svg-icon {
+.svg-icon { 
+  color: #000000;
   width: 40px;
   height: 40px;
   fill: var(--primary-color);
@@ -1059,7 +1061,7 @@ Responsive Styles
 */
 @media (max-width: 1200px) {
   .hero h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   /* .lll{
     background-image: url(/ElectricPrecision/src/expand-mo.png);
@@ -1361,11 +1363,53 @@ Responsive Styles
   /* color: #222; */
 }
 
-.portfolio2 img {
+/* .portfolio2 img {
   position: relative;
   left: 20PX;
-<<<<<<< HEAD
+} */
+
+
+
+.about2 {
+  padding: var(--space-xxl) 0;
+  background-color: var(--white);
 }
-=======
+
+.about-content2 {
+  align-items: center;
 }
->>>>>>> 091ad2dbcf278ef6796a0f24f3ed4b5480c68e64
+
+.about-text2 h3 {
+  font-size: 1.5rem;
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+}
+
+.about-text2 p {
+  color: var(--text-light);
+}
+
+.about-stats2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+
+.stat2 {
+  background-color: var(--light-gray);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.stat-number2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: var(--space-xs);
+}
+
+.stat-text2 {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
