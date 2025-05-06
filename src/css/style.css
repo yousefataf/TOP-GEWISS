@@ -605,22 +605,47 @@ Portfolio & Product Section
   background-color: var(--light-gray);
   position: relative;
   overflow: hidden;
-  background-image: url("../1.png");
+  background-image: url("../../imag/img/1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .product-image-2 {
-  background-image: url("../3-\(2\).jpg");
+  background-image: url("../../imag/img/2.jpg");
 }
 
 .product-image-3 {
-  background-image: url("../4.png");
+  background-image: url("../../imag/img/3.jpg");
 }
 
 .product-image-4 {
-  background-image: url("../5.png");
+  background-image: url("../../imag/img/4.jpg");
 }
+
+.product-image-5 {
+  background-image: url("../../imag/img/5.jpg");
+}
+
+.product-image-6 {
+  background-image: url("../../imag/img/6.jpg");
+}
+
+.product-image-7 {
+  background-image: url("../../imag/img/7.jpg");
+}
+
+.product-image-8 {
+  background-image: url("../../imag/img/8.jpg");
+}
+
+.product-image-9 {
+  background-image: url("../../imag/img/9.jpg");
+}
+
+.product-image-10 {
+  background-image: url("../../imag/img/10.jpg");
+}
+
 
 .product-badge {
   position: absolute;
