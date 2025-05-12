@@ -48,6 +48,19 @@
 
 
 
+  <div class="language-switcher">
+    <button class="lang-btn" id="langToggle">
+      <i class="fas fa-language"></i>
+      <button?>
+        <div class="lang-menu" id="langMenu">
+          <p>Language Options</p>
+          <a href="#">English
+          </a>
+          <a href="./About-Us -  AR .html">Arabic</a>
+        </div>
+  </div>
+
+
 
   <!-- About Section -->
   <section id="about" class="about">
@@ -317,6 +330,20 @@
   <script>
     AOS.init();
   </script>
+
+  <script>const langToggle = document.getElementById("langToggle");
+    const langMenu = document.getElementById("langMenu");
+
+    langToggle.addEventListener("click", () => {
+      langMenu.style.display = langMenu.style.display === "block" ? "none" : "block";
+    });
+
+    // إغلاق القائمة لو ضغطت بره
+    window.addEventListener("click", function (e) {
+      if (!langToggle.contains(e.target) && !langMenu.contains(e.target)) {
+        langMenu.style.display = "none";
+      }
+    });</script>
 
 </body>
 

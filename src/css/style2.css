@@ -368,10 +368,12 @@ Hero Section
 .hero-content {
   max-width: 750px;
   position: relative;
+  
   z-index: 1;
 }
 
 .hero h1 {
+  position: relative;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: var(--space-lg);
@@ -1127,6 +1129,7 @@ Responsive Styles
 
   .hero h1 {
     font-size: 2.5rem;
+    
   }
 
   .section-header h2 {
@@ -1252,6 +1255,7 @@ Responsive Styles
 
   .hero h1 {
     font-size: 1.6rem;
+    
   }
 
   /* Product card responsive styles */
@@ -1300,6 +1304,8 @@ Responsive Styles
 
   .hero h1 {
     font-size: 1.8rem;
+    display: none;
+
   }
 }
 
@@ -1452,6 +1458,35 @@ Responsive Styles
   left: 0;
   right: 400px;
 }
+@media (min-width: 768px) {
+  .hero h1{
+    position: relative;
+    right: 200px;
+  }
+  .hero p{
+    position: relative;
+    right: 200px;
+    font-size: 26px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

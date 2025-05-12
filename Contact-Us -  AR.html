@@ -4,14 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TOP GEWISS</title>
+  <meta name="description" content="التفوق في مجال تصنيع قنوات ومرفقات U-PVC الصلبة، والصناديق الدائرية U-PVC، والقنوات
+  المرنة U-PVC، وصناديق التوصيلات المقاومة للماء، والقنوات المرنة PE
+  نستخدم أنقى وأفضل المواد لنقدم منتجًا
+  نهائيًا عالي الجودة
+  ">
+
+  <title>توب جيويس</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/style2.css">
   <link rel="shortcut icon" href="./src/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
@@ -21,26 +25,31 @@
 
   <header id="header">
     <div class="container">
-      <div class="logo">
-        <a href="./index.html">
-          <h1><img src="./src/logo1.png" alt=""></h1>
-        </a>
-      </div>
+
       <nav id="nav">
-        <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false" id="mobile-nav-toggle2">
           <span class="sr-only">Menu</span>
           <i class="fa-solid fa-bars"></i>
           <i class="fa-solid fa-xmark"></i>
         </button>
-        <ul id="primary-nav" data-visible="false">
-          <li><a href="./index.html" class="nav-link">Home</a></li>
-          <li><a href="./About-Us.html" class="nav-link">About Us</a></li>
-          <li><a href="./All-Products.html" class="nav-link">All Products</a></li>
-          <li><a href="./All-Products.html#CERTIFICATES" class="nav-link">Certificates</a></li>
+        <ul id="primary-nav" data-visible="false" style="font-size: 20px;">
+          <li><a href="All-Products -  AR.html#CERTIFICATES" class="nav-link">الشهادات</a></li>
+          <li><a href="./All-Products -  AR.html" class="nav-link">المشاريع</a></li>
 
-          <li><a href="./Contact-Us.html" class="nav-link active">Contact Us</a></li>
+          <li><a href="#" class="nav-link active">اتصل بنا</a></li>
+          <li><a href="./About-Us -  AR .html" class="nav-link">من نحن</a></li>
+
+          <li><a href="./index - AR.html" class="nav-link ">الرئيسية</a></li>
+
         </ul>
       </nav>
+
+      <div class="logo">
+        <a href="./index - AR.html">
+
+          <h1><img src="./logo ar.png" alt=""></h1>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -50,17 +59,20 @@
     <button?>
     <div class="lang-menu" id="langMenu">
       <p>Language Options</p>
-      <a href="#">English
+      <a href="./Contact-Us.html">English
       </a>
-      <a href="./Contact-Us -  AR.html">Arabic</a>
+      <a href="#">Arabic</a>
     </div>
   </div>
+
+
+
 
   <!-- Contact Section -->
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-header">
-        <h2 data-aos="zoom-in" style="padding-top: 30px;">Contact Us</h2>
+        <h2 style="font-size: 50px;" data-aos="zoom-in">اتصل بنا</h2>
       </div>
       <div class="contact-wrapper">
         <div class="contact-info">
@@ -69,9 +81,8 @@
               <i class="fa-solid fa-location-dot"></i>
             </div>
             <div class="info">
-              <h3>Visit Us</h3>
-              <p>2nd Stage,Mubrak Industrial Zone Quesna
-                ,Menofia,Egypt</p>
+              <h3>زورونا</h3>
+              <p style="direction: rtl;">المرحلة الثانية، منطقة مبارك الصناعية، قويسنا، المنوفية، مصر</p>
             </div>
           </div>
           <div class="contact-card" data-aos="zoom-in">
@@ -79,7 +90,7 @@
               <i class="fa-solid fa-phone"></i>
             </div>
             <div class="info">
-              <h3>Call Us</h3>
+              <h3>اتصل بنا</h3>
               <p>+20201007340666<br>+20201050222522 <br>+2020482590117 </p>
             </div>
           </div>
@@ -88,7 +99,7 @@
               <i class="fa-solid fa-envelope"></i>
             </div>
             <div class="info">
-              <h3>Email Us</h3>
+              <h3> البريد الإلكتروني</h3>
               <p>Info@topgewiss.com</p>
             </div>
           </div>
@@ -97,39 +108,39 @@
               <i class="fa-solid fa-clock"></i>
             </div>
             <div class="info">
-              <h3>Working Hours</h3>
-              <p>All times except Friday</p>
+              <h3>ساعات العمل</h3>
+              <p>جميع الأوقات ما عدا يوم الجمعة</p>
             </div>
           </div>
         </div>
         <div class="contact-form" data-aos="zoom-in">
           <form id="contactForm" action="./send-email/email.php" method="POST">
             <div class="form-group">
-              <label for="name">Full Name</label>
-              <input type="text" name="name" placeholder="Name" required="">
+              <label for="name"><b>الاسم كامل</b></label>
+              <input type="text" name="name" placeholder="الاسم" required="">
             </div>
             <div class="form-group">
-              <label for="email">Email Address</label>
-              <input type="email" id="email" name="email" placeholder="Email" required="">
+              <label for="email"><b>البريد الإلكتروني</b></label>
+              <input type="email" id="email" name="email" placeholder="البريد الالكتروني" required="">
             </div>
             <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input type="text" id="subject" name="phone" placeholder="Phone" required="">
+              <label for="phone"><b>رقم الهاتف</b></label>
+              <input type="text" id="subject" name="phone" placeholder="رقم الهاتف" required="">
             </div>
             <div class="form-group">
-              <label for="subject">Subject</label>
+              <label for="subject"><b>موضوع</b></label>
               <select id="subject" name="subject">
-                <option value="general">General Inquiry</option>
-                <option value="quote">Request a Quote</option>
-                <option value="support">Technical Support</option>
-                <option value="other">Other</option>
+                <option value="general"><b>استفسار عام</b></option>
+                <option value="quote"><b>طلب عرض سعر</b></option>
+                <option value="support"><b>الدعم الفني</b></option>
+                <option value="other"><b>آخر</b></option>
               </select>
             </div>
             <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="msg" required placeholder="Message"></textarea>
+              <label for="message"><b>رساله</b></label>
+              <textarea id="message" name="msg" required placeholder="رسالة"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-primary">إرسال رسالة</button>
           </form>
         </div>
       </div>
@@ -140,7 +151,7 @@
   <section id="location" class="location">
     <div class="container">
       <div class="section-header">
-        <h2 data-aos="zoom-in">Location</h2>
+        <h2 style="font-size: 50px;" data-aos="zoom-in">الموقع</h2>
       </div>
       <div class="map-container" data-aos="zoom-in" style="position: relative; width: 100%; height: 450px;">
         <iframe
@@ -156,10 +167,10 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-logo" data-aos="zoom-in">
-          <h2><img src="./src/loge-2.png" alt=""></h2>
-          <p>Top Gewiss is a leading Egyptian company in the field of manufacturing and supplying U-PVC Rigid Conduits &
-            Fittings , U-PVC Circular Boxes, U-PVC Flexible Conduits, Waterproof Junction Boxes and PE Pliable Conduits
-            to serve the commercial, industrial and educational construction sectors locally and globally.</p>
+          <h2><img src="./logo ar2.png" alt=""></h2>
+          <p style="direction: rtl;">تعتبر توب جيويس شركة مصرية رائدة في مجال تصنيع وتوريد أنابيب ومرفقات U-PVC الصلبة،
+            وصناديق دائرية U-PVC، وأنابيب U-PVC المرنة، وصناديق التوصيل المقاومة للماء، وأنابيب PE المرنة، وذلك لخدمة
+            قطاعات البناء التجارية والصناعية والتعليمية محليًا وعالميًا.</p>
           <div class="social-links">
             <a href="https://www.facebook.com/profile.php?id=61575326021614&locale=ar_AR" aria-label="Facebook"><i
                 class="fa-brands fa-facebook-f"></i></a>
@@ -171,44 +182,44 @@
         </div>
         <div class="footer-links">
           <div class="footer-link-group">
-            <h3>Quick Links</h3>
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./About-Us.html">About Us</a></li>
-              <li><a href="./All-Products.html">All Products</a></li>
-              <li><a href="#">Contact</a></li>
+            <h3 style="font-size: 30px;">روابط سريعة</h3>
+            <ul style="font-size: 20px; justify-content: center;">
+              <li><a href="./index - AR.html">الرئيسية</a></li>
+              <li><a href="./About-Us -  AR .html">من نحن</a></li>
+              <li><a href="./All-Products -  AR.html">المشاريع</a></li>
+              <li><a href="#">اتصل بنا</a></li>
             </ul>
           </div>
           <div class="footer-link-group">
-            <h3>Products</h3>
+            <h3 style="font-size: 30px;">منتجات</h3>
             <ul>
-              <li> <a href="All-Products.html#UPVC CONDUITSN" class="btn-text">UPVC CONDUITS</a>
+              <li> <a href="All-Products -  AR.html#UPVC CONDUITSN" class="btn-text">UPVC CONDUITS</a>
                 </a></li>
-              <li> <a href="All-Products.html#GRAY CONDUITS" class="btn-text">GRAY CONDUITS</a>
+              <li> <a href="All-Products -  AR.html#GRAY CONDUITS" class="btn-text">GRAY CONDUITS</a>
                 </a></li>
-              <li> <a href="All-Products.html#U-PVC FITTINGS" class="btn-text">U-PVC FITTINGS</a>
+              <li> <a href="All-Products -  AR.html#U-PVC FITTINGS" class="btn-text">U-PVC FITTINGS</a>
                 </a></li>
-              <li> <a href="All-Products.html#U-PVC CIRCULAR BOXES" class="btn-text">U-PVC CIRCULAR BOXES</a>
+              <li> <a href="All-Products -  AR.html#U-PVC CIRCULAR BOXES" class="btn-text">U-PVC CIRCULAR BOXES</a>
                 </a></li>
-              <li> <a href="All-Products.html#U-PVC FIEXIBLE CONDUITS" class="btn-text">U-PVC FIEXIBLE CONDUITS</a>
+              <li> <a href="All-Products -  AR.html#U-PVC FIEXIBLE CONDUITS" class="btn-text">U-PVC FIEXIBLE CONDUITS</a>
                 </a></li>
-              <li> <a href="All-Products.html#WATER-PROOF JUNCTION BOXES" class="btn-text">WATER-PROOF JUNCTION
+              <li> <a href="All-Products -  AR.html#WATER-PROOF JUNCTION BOXES" class="btn-text">WATER-PROOF JUNCTION
                   BOXES</a>
                 </a></li>
-              <li> <a href="All-Products.html#PE-PLIABLE CONDUITS" class="btn-text">PE-PLIABLE CONDUITS</a>
+              <li> <a href="All-Products -  AR.html#PE-PLIABLE CONDUITS" class="btn-text">PE-PLIABLE CONDUITS</a>
                 </a></li>
-              <li> <a href="All-Products.html#PG-CABLE GLANDS" class="btn-text">PG-CABLE GLANDS</a>
+              <li> <a href="All-Products -  AR.html#PG-CABLE GLANDS" class="btn-text">PG-CABLE GLANDS</a>
                 </a></li>
-              <li> <a href="All-Products.html#PE FLUSH-MOUNTING BOXES" class="btn-text">PE FLUSH-MOUNTING BOXES</a>
+              <li> <a href="All-Products -  AR.html#PE FLUSH-MOUNTING BOXES" class="btn-text">PE FLUSH-MOUNTING BOXES</a>
                 </a></li>
-              <li><a href="All-Products.html#ABS FLUSH-MOUNTING" class="btn-text">ABS FLUSH-MOUNTING</a>
+              <li><a href="All-Products -  AR.html#ABS FLUSH-MOUNTING" class="btn-text">ABS FLUSH-MOUNTING</a>
                 </a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 TOP GEWIS. All Rights Reserved.</p>
+        <p>&copy;2025 <b>توب جيويس جميع الحقوق محفوظة</b></p>
         <div class="footer-bottom-links">
           <a
             href="https://web.facebook.com/SaifElzoghbyAgency1?rdid=nuYBTNnpWdyBYSgs&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1636pnJnkb%2F%3F_rdc%3D1%26_rdr#">by
@@ -242,6 +253,7 @@
       langMenu.style.display = "none";
     }
   });</script>
+
 </body>
 
 </html>
