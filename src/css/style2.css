@@ -1537,3 +1537,6 @@ Responsive Styles
 .lang-menu a:hover{
   color: #f69324;
 }
+.section-header2 h2{
+  font-size: 36px;
+}
