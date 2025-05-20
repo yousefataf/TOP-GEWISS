@@ -45,13 +45,13 @@
   <div class="language-switcher">
     <button class="lang-btn" id="langToggle">
       <i class="fas fa-language"></i>
-    <button?>
-    <div class="lang-menu" id="langMenu">
-      <p>Language Options</p>
-      <a href="#">English
-      </a>
-      <a href="./Contact-Us -  AR.html">Arabic</a>
-    </div>
+      <button?>
+        <div class="lang-menu" id="langMenu">
+          <p>Language Options</p>
+          <a href="#">English
+          </a>
+          <a href="./Contact-Us -  AR.html">Arabic</a>
+        </div>
   </div>
 
   <!-- Contact Section -->
@@ -180,7 +180,7 @@
           <div class="footer-link-group">
             <h3>Products</h3>
             <ul>
-              <li> <a href="All-Products.html#UPVC CONDUITSN" class="btn-text">UPVC CONDUITS</a>
+              <li> <a href="All-Products.html#UPVC CONDUITS" class="btn-text">UPVC CONDUITS</a>
                 </a></li>
               <li> <a href="All-Products.html#GRAY CONDUITS" class="btn-text">GRAY CONDUITS</a>
                 </a></li>
@@ -227,19 +227,19 @@
   </script>
 
 
-<script>const langToggle = document.getElementById("langToggle");
-  const langMenu = document.getElementById("langMenu");
-  
-  langToggle.addEventListener("click", () => {
-    langMenu.style.display = langMenu.style.display === "block" ? "none" : "block";
-  });
-  
-  // إغلاق القائمة لو ضغطت بره
-  window.addEventListener("click", function(e) {
-    if (!langToggle.contains(e.target) && !langMenu.contains(e.target)) {
-      langMenu.style.display = "none";
-    }
-  });</script>
+  <script>const langToggle = document.getElementById("langToggle");
+    const langMenu = document.getElementById("langMenu");
+
+    langToggle.addEventListener("click", () => {
+      langMenu.style.display = langMenu.style.display === "block" ? "none" : "block";
+    });
+
+    // إغلاق القائمة لو ضغطت بره
+    window.addEventListener("click", function (e) {
+      if (!langToggle.contains(e.target) && !langMenu.contains(e.target)) {
+        langMenu.style.display = "none";
+      }
+    });</script>
 </body>
 
 </html>
